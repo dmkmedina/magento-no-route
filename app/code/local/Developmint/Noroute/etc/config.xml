@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Developmint_Noroute>
+            <version>0.1.0</version>
+        </Developmint_Noroute>
+    </modules>
+    <global>
+        <page>
+            <layouts>
+                <no_route_page_template translate="label">
+                    <label>404 Page Template</label>
+                    <template>page/404.phtml</template>
+                    <layout_handle>404 Page Template</layout_handle>
+                </no_route_page_template>
+                <!-- add more layouts here -->
+            </layouts>
+        </page>
+    </global>
+</config>
